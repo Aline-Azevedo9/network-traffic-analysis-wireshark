@@ -59,3 +59,24 @@ Durante a análise foram observados eventos de TCP Retransmission, indicando que
 
 <img width="1012" height="546" alt="Captura de tela 2026-03-05 155056" src="https://github.com/user-attachments/assets/7db8f8f4-1f7f-4a81-a328-098cb9b7ad75" />
 
+
+## Aprendizados do Laboratório
+
+Durante este laboratório eu consegui compreender na prática como ocorre o estabelecimento de conexões TCP através do processo conhecido como Three-Way Handshake.
+
+A captura de pacotes permitiu identificar:
+- Pacotes SYN iniciando conexões entre cliente e servidor
+- Respostas SYN/ACK confirmando solicitações de conexão
+- Confirmações ACK estabelecendo sessões de comunicação
+- Eventos de TCP Retransmission indicando reenvio de pacotes
+
+Essa análise me ajuda a entender o comportamento real do tráfego de rede e como ferramentas de análise de pacotes podem ser utilizadas para troubleshooting, monitoramento e investigação de incidentes de rede.
+
+## Ferramentas Utilizadas
+
+- Wireshark
+- Protocolo TCP/IP
+- Análise de pacotes
+- Monitoramento de tráfego de rede
+
+  
